@@ -12,11 +12,6 @@
     "analytics"
   ],
   "main": "lib/index.js",
-  "browserify": {
-    "transform": [
-      "brfs"
-    ]
-  },
   "dependencies": {
     "clone": "~0.1.17",
     "component-type": "~1.0.0",
@@ -33,8 +28,7 @@
     "browserify": "^8.1.3",
     "express": "~3.4.8",
     "http-proxy": "~1.11.1",
-    "mocha": "1.8.1",
-    "brfs": "^1.3.0"
+    "mocha": "1.8.1"
   },
   "engines": {
     "node": ">= 0.8.x"
